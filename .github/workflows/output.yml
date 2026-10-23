@@ -1,6 +1,8 @@
 name: Output
 on:
-    push
+    push:
+        paths-ignore:
+            - .github/workflows/**
 jobs:
     output:
         runs-on: ubuntu-latest
