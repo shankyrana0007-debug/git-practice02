@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Getting data from expression
-              run: echo "$ {{ toJSON (github) }}"    
+              run: echo "${{ toJSON(github) }}"    
